@@ -1,12 +1,15 @@
-import Header from "../ComponentesGlobais/Header/Header";
+import SubHeader from "../ComponentesGlobais/SubHeader";
+import Header from "../ComponentesGlobais/Header";
 
 function PaginaInicial() {
-
   return (
     <div>
       <Header />
-    </div>
-  )
+      <SubHeader />
+        
+         
+      </div>
+  );
 }
 
 export default PaginaInicial;

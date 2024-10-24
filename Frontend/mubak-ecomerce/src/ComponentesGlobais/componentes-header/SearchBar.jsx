@@ -16,11 +16,11 @@ const SearchBar = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Aperte o K e busque aqui"
-        className="border border-gray-300 rounded-l px-4 py-1 w-[500px]"
+        className="border border-gray-300 rounded-2 px-2 py-2 w-[500px]"
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white rounded-r px-4 py-2"
+        className="bg-blue-500 text-white "
       >
         Buscar
       </button>

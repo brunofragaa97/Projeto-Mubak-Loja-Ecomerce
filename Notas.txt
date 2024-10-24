@@ -1,0 +1,5 @@
+Para rodar o projeto é necessário:
+
+-> Acessar o terminal e ir até a pasta "cd /frontend/mubak-ecomerce/"
+-> rodar o comando "npm dev run"
+-> Acessar via link http://localhost:5173/
