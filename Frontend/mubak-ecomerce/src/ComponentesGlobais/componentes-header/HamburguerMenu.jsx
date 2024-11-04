@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div>
+    <div className="">
       {/* Botão do menu hambúrguer */}
       <button
         className="navbar-toggler focus:outline-none text-white"
@@ -26,7 +26,7 @@ const HamburgerMenu = () => {
 
       {/* Painel Deslizante de Cima para Baixo */}
       <div
-        className={`fixed top-0 left-0 h-screen w-[23%] bg-black transition-transform 
+        className={`z-10 fixed top-0 left-0 h-screen w-[23%] bg-black transition-transform 
           duration-300 transform 
           ${isOpen ? "translate-y-0" : "-translate-y-full"}`}
         id="sidebar"
