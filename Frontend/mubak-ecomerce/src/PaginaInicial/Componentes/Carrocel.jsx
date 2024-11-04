@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react"; // Importa React e os hooks useState e useEffect
-
+import gifImage from '/src/assets/1729888684.gif';
+import jpgImage1 from '/src/assets/1730460826.jpg';
+import jpgImage2 from '/src/assets/1730375902.jpg';
 // Início do componente Carrossel
 function Carrossel() {
   // Inicializa a variável imagemAtual com a imagem padrão
-  const [imagemAtual, setImagemAtual] = useState("/imagens-referencia/1729888684.gif");
+  const [imagemAtual, setImagemAtual] = useState(gifImage);
   
   // Inicializa a variável indiceAtual como 0 para a primeira imagem
   const [indiceAtual, setIndiceAtual] = useState(0); 
@@ -13,18 +15,9 @@ function Carrossel() {
 
   // Cria uma lista de imagens para o carrossel
   const imagens = [
-    "/imagens-referencia/1729888684.gif", 
-    "/imagens-referencia/1730460826.jpg", 
-    "/imagens-referencia/1730375902.jpg",
-    "/imagens-referencia/1729888684.gif", 
-    "/imagens-referencia/1730460826.jpg", 
-    "/imagens-referencia/1730375902.jpg",
-    "/imagens-referencia/1729888684.gif", 
-    "/imagens-referencia/1730460826.jpg", 
-    "/imagens-referencia/1730375902.jpg",
-    "/imagens-referencia/1729888684.gif", 
-    "/imagens-referencia/1730460826.jpg", 
-    "/imagens-referencia/1730375902.jpg"
+   gifImage,
+   jpgImage1,
+   jpgImage2
   ];
 
   // Função para passar para a próxima imagem
